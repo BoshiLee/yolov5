@@ -66,6 +66,7 @@ Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/
 ```bash
 git clone https://github.com/ultralytics/yolov5  # clone
 cd yolov5
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117 #install offical torch for gpu supports
 pip install -r requirements.txt  # install
 ```
 
